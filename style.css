@@ -44,8 +44,8 @@
       color: #31363F;
   }
 .cuerpo {
-    height: 99vh;
-    width: 80%;
+    width: 500px;
+    height: auto;
     display:flex;
     flex-direction: column;
     text-align:right;
@@ -136,7 +136,10 @@
           padding: 10px;
           flex-direction: column;
       }
-      
+      .cuerpo{
+        width: 80%;
+        height: auto;
+      }
   
       .info_general, .registro {
           width: 100%;
