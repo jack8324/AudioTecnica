@@ -10,7 +10,7 @@
       flex-direction: column;
       justify-content: space-between;
       min-height: 100vh;
-      background-color: #BAD2E4;
+      background-color: #a1a1a1;
   
   }
   
@@ -45,22 +45,45 @@
   }
 .cuerpo {
     margin-top: 30px;
-    height: 80%;
+    height: 95%;
     width: auto;
     display:flex;
     flex-direction: row;
-    text-align: center;
+    text-align:right;
     justify-content: space-around;
 }
 .audio, .video, .votaciones {
-    height: 150px;
+    height: 210px;
     width: auto;
-    border:1px dotted #31363F;
     border-radius: 4px;
-    align-content: baseline;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items:center;
 
 }
+.imgAudio{
+    width: auto;
+    height: 200px;
+    border-radius: 5px;
+}
+.imgVideo{
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+.video{
+    justify-content: right; 
+}
+.cardVideo{
+    text-align: left;
+}
+.imgVotaciones{
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
 
+}
   /*footer*/
   
   .footer {
