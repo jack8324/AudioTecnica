@@ -83,11 +83,20 @@
     box-shadow: 10px 10px 5px rgb(56, 56, 56);
 
 }
+.titulo{
+    text-align: center;
+    color: #31363F;
+
+    /*#020873 color azul de paleta*/
+    /*#445CA6 color azul del logo*/
+}
+
   /*footer*/
   
   .footer {
+      width:100vw ;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: flex-end;
       background-color: #BAD2E4;
       font-weight: bold;
@@ -97,15 +106,19 @@
       margin-top: 25px;
       width: 100%;
       display: flex;
-      flex-wrap: wrap;
+      /*flex-wrap: wrap;*/
       justify-content: space-between;
       gap: 5px;
   }
   
   .info {
+      display: flex;
+      flex-direction: row;
       margin-left: 40px;
       width: auto;
       margin-bottom: 20px;
+      align-items: center;
+      justify-items: center;
   }
   
   /*footer icon*/ 
@@ -118,14 +131,7 @@
       margin-left: 8px;
   }
   
-  .sobre_nosotros {
-      margin-right: 40px;
-      margin-left: 40px;
-      width: auto;
-      margin-bottom: 20px;
-  }
-  
-  
+
   @media (max-width: 720px) {
       .form {
           padding: 10px;
